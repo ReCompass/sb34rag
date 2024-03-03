@@ -1,16 +1,16 @@
 from os import getenv
 
 from dotenv import load_dotenv
+from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
 from langchain_openai import OpenAIEmbeddings
-from langchain.text_splitter import CharacterTextSplitter
 from pinecone import Pinecone
 
 load_dotenv()
 
 # load the documents and split them.
 # This can be substituted with any data type loader according to your requirement.
-loader = TextLoader('./savings-accounts.txt')
+loader = TextLoader("./savings-accounts.txt")
 documents = loader.load()
 
 # We proceed by segmenting the documents and generating their embeddings.

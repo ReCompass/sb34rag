@@ -2,6 +2,7 @@ from os import getenv
 
 from dotenv import load_dotenv
 from langchain import OpenAI
+
 # from langchain.callbacks.base import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.chains import ConversationalRetrievalChain
@@ -19,7 +20,7 @@ load_dotenv()
 
 # load the documents and split them.
 # This can be substituted with any data type loader according to your requirement.
-loader = TextLoader('./savings-accounts.txt')
+loader = TextLoader("./savings-accounts.txt")
 documents = loader.load()
 
 # We proceed by segmenting the documents and generating their embeddings.
