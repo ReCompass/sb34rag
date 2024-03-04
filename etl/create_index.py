@@ -1,6 +1,6 @@
 import click
 from dotenv import load_dotenv
-from pinecone import Pinecone, PodSpec
+from pinecone import Pinecone, PodSpec  # type: ignore[import-untyped]
 
 from constants import PinceconeIndex
 

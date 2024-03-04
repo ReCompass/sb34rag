@@ -7,7 +7,7 @@ from langchain_community.document_loaders import CSVLoader, PyPDFLoader
 from langchain_core.documents import Document
 from langchain_openai import OpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
-from pinecone import Pinecone
+from pinecone import Pinecone  # type: ignore[import-untyped]
 
 from constants import PinceconeIndex
 
