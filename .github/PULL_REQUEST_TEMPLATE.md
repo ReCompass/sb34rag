@@ -27,6 +27,6 @@ Closes: #XXX
 
 - [ ] Mypy is happy.
 - [ ] Unit tests passing.
-- [ ] Changes have been tested on local or test420tech.
+- [ ] Changes have been tested on local or TEST_ENV.
 
 <!-- Add more checklist items as needed -->
