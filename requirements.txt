@@ -6,6 +6,7 @@ langchain-core==0.1.28
 langchain-openai==0.0.8
 langchain-pinecone==0.0.3
 langchainhub==0.1.14
-python-dotenv==1.0.1
 pinecone-client==3.1.0
 pre-commit==3.6.2
+pypdf==4.1.0
+python-dotenv==1.0.1

@@ -11,7 +11,7 @@ On our [Drive](https://docs.google.com/document/d/1wPZ0LF5d_gib5UaMepqtHy-5TprYI
 ## Onboarding to the Repo as a Developer
 All of this should be run from the project root. These steps wil create a bash profile and source your terminal with it at the end.
 ### Requirements
-- View rights on TODO: Service Acct
+- View rights on (TODO: Service Acct)
 ### (PC Users) Install Git Bash and establish a .bashrc
 TODO: Do we need this section?
 #### Install Git Bash
